@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4cfc1224-9362-4904-b465-a91d5d349245">
+  <producedTypes>
+    <refType typeId="842c5e7c-b1b5-420b-b003-b4af98328e98" valueTypeId="76fc4a81-95d4-4dde-aad4-047fb4525c98"/>
+    <listType typeId="53261aae-0b67-4cb5-b7d6-0025ee0b0c07" valueTypeId="bb53f316-d3ce-4176-9378-2189693e09e5"/>
+    <managerType typeId="cfa497b9-6341-4211-b3cd-0c81521a768a" valueTypeId="5090893b-79c3-46fd-89f3-b27dd0747a8c"/>
+  </producedTypes>
+  <name>ПриоритетыЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Приоритеты задач</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b3d47b9c-8fb5-44a6-9291-a50162539918">
+    <name>Низкий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Низкий</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="5d03c49e-5736-4452-8447-e73071f085b2">
+    <name>Средний</name>
+    <synonym>
+      <key>ru</key>
+      <value>Средний</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="dc825a26-ebfe-4ebf-9ada-dd22a2967050">
+    <name>Высокий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Высокий</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

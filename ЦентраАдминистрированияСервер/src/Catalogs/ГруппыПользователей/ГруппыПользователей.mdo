@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="681c5ee0-8441-4681-ad5a-caf127a136c6">
+  <producedTypes>
+    <objectType typeId="43e1dbb9-12e0-4969-8ec5-c14540b05372" valueTypeId="6c2cfdf3-e1e2-4079-ba18-8bf92b2e43c7"/>
+    <refType typeId="779cb192-5f29-4f45-a247-43513c19ba23" valueTypeId="a819c363-b3b9-4173-95be-0c2165185b23"/>
+    <selectionType typeId="6cd743b0-57d9-45f3-9e25-dbab10b468ea" valueTypeId="295f2104-f48e-4c97-8985-b122cd79f104"/>
+    <listType typeId="b1268f93-25eb-4de9-b580-ffbdae85df0a" valueTypeId="d48c1f99-c3fa-44b8-a124-53554eba5ff7"/>
+    <managerType typeId="a198ab5e-201d-457b-98c5-b16f23e52d20" valueTypeId="f40433ec-9fd0-4fb5-8ae7-80938c0c871d"/>
+  </producedTypes>
+  <name>ГруппыПользователей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Группы пользователей</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ГруппыПользователей.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <name>PredefinedDataName</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Predefined</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>DeletionMark</name>
+    <comment></comment>
+    <fillValue xsi:type="core:BooleanValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>IsFolder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Owner</name>
+    <comment></comment>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Parent</name>
+    <synonym>
+      <key>ru</key>
+      <value>Входит в группу</value>
+    </synonym>
+    <comment></comment>
+    <toolTip>
+      <key>ru</key>
+      <value>Вышестоящая группа в иерархии</value>
+    </toolTip>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>6da41150-c95f-4af5-9910-e817191ac000.00000000-0000-0000-0000-000000000000</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Description</name>
+    <comment></comment>
+    <toolTip>
+      <key>ru</key>
+      <value>Название группы</value>
+    </toolTip>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Code</name>
+    <comment></comment>
+    <toolTip>
+      <key>ru</key>
+      <value>Код, идентифицирующий группу</value>
+    </toolTip>
+    <fillValue xsi:type="core:StringValue">
+      <value>         </value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Группа пользователей</value>
+  </objectPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Группы пользователей, имеющих одинаковый доступ к данным системы</value>
+  </explanation>
+  <hierarchical>true</hierarchical>
+  <hierarchyType>HierarchyOfItems</hierarchyType>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="515b9805-054f-424e-816e-87afebdac3b6">
+      <name>ВсеПользователи</name>
+      <description>Все пользователи</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="6b67919b-0992-4ac8-a485-ee4e2420bd89">
+      <name>МониторингОшибокСинхронизации</name>
+      <description>Мониторинг ошибок синхронизации</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ГруппыПользователей.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ГруппыПользователей.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ГруппыПользователей.Form.ФормаСписка</defaultChoiceForm>
+  <attributes uuid="d94b040f-24aa-4e3b-8489-83228931dad9">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Произвольная строка</value>
+    </toolTip>
+    <mask></mask>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <tabularSections uuid="4b17bb6d-df8e-4f6e-8014-f4c9ac5479d3">
+    <producedTypes>
+      <objectType typeId="1af025a7-5f5b-4a17-980e-30ab66fc4547" valueTypeId="6386e6d8-c647-4b0c-b4f9-b40b0587275c"/>
+      <rowType typeId="799828c5-889b-4031-896a-4e8590ee8cde" valueTypeId="2c588448-86f2-48b6-a6df-b715df96f20e"/>
+    </producedTypes>
+    <name>Состав</name>
+    <synonym>
+      <key>ru</key>
+      <value>Участники группы</value>
+    </synonym>
+    <comment></comment>
+    <toolTip>
+      <key>ru</key>
+      <value>Пользователи, входящие в группу</value>
+    </toolTip>
+    <standardAttributes>
+      <name>LineNumber</name>
+      <comment></comment>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="611bdcbe-b909-4dcc-a3f0-bb35d7912bde">
+      <name>Пользователь</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пользователь</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.Пользователи</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Пользователь, включенный в группу</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <quickChoice>DontUse</quickChoice>
+      <createOnInput>Use</createOnInput>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <use>ForFolderAndItem</use>
+  </tabularSections>
+  <forms uuid="9b8be900-f65b-4aae-8541-382c0ea024f0">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7388e8cd-cb81-437c-bf7b-9e76c704c9be">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="bcbf5377-af90-4c63-9d57-3c4890b246a1">
+    <name>ГруппыПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группы</value>
+    </synonym>
+    <comment></comment>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Группы пользователя</value>
+    </toolTip>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:Catalog>

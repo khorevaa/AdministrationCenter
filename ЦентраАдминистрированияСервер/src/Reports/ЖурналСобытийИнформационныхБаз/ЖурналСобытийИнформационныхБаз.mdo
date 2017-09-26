@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="20c71582-0eea-4973-9761-716672f2ab4b">
+  <producedTypes>
+    <objectType typeId="ddc5358a-62b6-430d-bf32-a81504dc22db" valueTypeId="849f0889-a899-4599-b5d3-31cd9e69ba31"/>
+    <managerType typeId="e87b3ae9-590b-4f1e-9993-ed103417cd41" valueTypeId="0508751c-a2f2-448a-9b64-f599f3451fdc"/>
+  </producedTypes>
+  <name>ЖурналСобытийИнформационныхБаз</name>
+  <synonym>
+    <key>ru</key>
+    <value>Журнал событий информационных баз</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ЖурналСобытийИнформационныхБаз.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.ЖурналСобытийИнформационныхБаз.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <forms uuid="6826cd8e-6f5d-4784-8767-ed376e371a7a">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="ec0b5f91-ab87-448f-8eb8-014efb839360">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cea5f7da-5f92-441f-9a27-2b534e665132">
+  <producedTypes>
+    <refType typeId="f75ff02c-180d-4b11-829d-b5285c0a66bb" valueTypeId="eaaf5f65-95d7-441f-a5ec-7571147bf825"/>
+    <listType typeId="b6ab8884-2e37-48e4-97ca-35d0b9981dd9" valueTypeId="8cf21ecb-a530-4c16-b6e6-bcef90b0b23b"/>
+    <managerType typeId="9cab0cbe-c402-4db0-b23d-9d98df5b8885" valueTypeId="93ea933e-4c55-4690-b63e-6cb9243d35cd"/>
+  </producedTypes>
+  <name>РежимЗапускаПриложения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Режим запуска приложения</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6e45c754-7715-42a9-b576-2c15dadc1154">
+    <name>УправляемоеПриложение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Управляемое приложение</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="8b745a91-2228-43cf-993d-ace4fd35270c">
+    <name>ОбычноеПриложение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обычное приложение</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="968913c5-8ae3-46e3-8c72-1f5b554067af">
+  <producedTypes>
+    <objectType typeId="d68e67b8-de7b-4274-8c94-c75eafc96aae" valueTypeId="08384d89-8bec-4c6e-81fb-5fc93a74e317"/>
+    <managerType typeId="be0ed2a4-9406-4f72-9f26-c343e2d6c268" valueTypeId="689c9c33-1071-4436-9ab6-c6f433aa54ed"/>
+  </producedTypes>
+  <name>ВыполненныеЗадачиЗаПериод</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выполненные задачи за период</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ВыполненныеЗадачиЗаПериод.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="9df9384e-552c-48c0-b608-3cd80ac09d9f">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

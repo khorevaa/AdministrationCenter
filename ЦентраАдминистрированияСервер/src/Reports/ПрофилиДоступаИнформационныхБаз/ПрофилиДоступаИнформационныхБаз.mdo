@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="73e5a877-2222-4df9-8dc3-6f1dc1f1451c">
+  <producedTypes>
+    <objectType typeId="114db9cf-23ec-4b0a-a69d-9498f8cc99a1" valueTypeId="6aa7aa6a-ef85-416e-931a-d170414dfc57"/>
+    <managerType typeId="efe2912a-e236-46bb-abca-0db65a300ba3" valueTypeId="8d147e4e-9634-48e6-9af7-716dda1ab518"/>
+  </producedTypes>
+  <name>ПрофилиДоступаИнформационныхБаз</name>
+  <synonym>
+    <key>ru</key>
+    <value>Профили доступа информационных баз</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ПрофилиДоступаИнформационныхБаз.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="4a5714b1-59ba-4b59-846a-828814f90646">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

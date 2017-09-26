@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9b810c8c-5258-4776-9976-b079e7e400a7">
+  <name>ВнешниеОбработки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработки</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.КонсольПрограммиста</content>
+  <content>Catalog.ВнешниеДополнительныеОтчетыИОбработки</content>
+  <parentSubsystem>Subsystem.РаботаСВнешнимиБазами</parentSubsystem>
+</mdclass:Subsystem>

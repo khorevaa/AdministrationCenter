@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9784b91b-8f93-42ff-85ed-9b7c20ba0f76">
+  <name>ОшибкиИНедочеты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ошибки и недочеты</value>
+  </synonym>
+  <comment></comment>
+  <templateType>TextDocument</templateType>
+</mdclass:CommonTemplate>

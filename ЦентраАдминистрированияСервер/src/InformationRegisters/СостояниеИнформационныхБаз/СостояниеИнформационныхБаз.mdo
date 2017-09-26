@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="76b7f864-81e8-4200-acae-53a63565e868">
+  <producedTypes>
+    <selectionType typeId="09f9ccd0-caf2-46f1-9fc8-d46d6e620661" valueTypeId="b078be8e-1404-4d26-b51c-813de6ee284d"/>
+    <listType typeId="89db9036-70b4-4c52-bb30-e4a55a44c704" valueTypeId="c4f8627d-94e3-4613-9857-bd8916629ab5"/>
+    <managerType typeId="e6acb163-e98f-48f2-8f7c-33e7acaf08c3" valueTypeId="6c859d11-eb00-479b-a4f1-04cd49d625eb"/>
+    <recordSetType typeId="df76eb01-f2bc-4385-af36-31a7cfef83b5" valueTypeId="ce07dc14-2987-4461-96a0-31ad31feaadc"/>
+    <recordKeyType typeId="21a55646-4499-4600-9c28-11d8279f3e98" valueTypeId="ae759775-f6a2-40ae-be16-c17a9321e964"/>
+    <recordType typeId="c1afcaa6-c08b-4097-b8d9-d2590873874f" valueTypeId="b717f10f-e6cc-4e6a-88e0-fb3c695d49e0"/>
+    <recordManagerType typeId="322ebdac-7574-472a-a653-dbf1f3731a10" valueTypeId="9783e35d-0a46-477e-91b0-0ebabfb6bbe4"/>
+  </producedTypes>
+  <name>СостояниеИнформационныхБаз</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояние информационных баз</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="de9f3637-9955-4c50-9881-f3735ed9c518">
+    <name>SQLБазаДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>SQLБаза данных</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="f08c3450-3776-4937-92a0-a65404e6f7a0">
+    <name>SQLСерверБазДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>SQLСервер баз данных</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="31553afb-0efb-442a-9024-8691bbe73b6a">
+    <name>БлокировкаНачалаСеансов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Блокировка начала сеансов</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="14854a34-e8a8-4b40-804e-b986efdbb486">
+    <name>ПараметрыБлокировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры блокировки</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="e6c18f61-55b2-457f-be3c-14b7050ced5b">
+    <name>ДатаРезервнойКопии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата резервной копии</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="174679d5-54e6-484f-9e77-f3fff2ea3e2e">
+    <name>КонфигурацияИзменена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конфигурация изменена</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d659b67d-5b24-496c-8bf7-44b3c64d38be">
+    <name>ТекущийРелиз</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текущий релиз</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="9bcc6d1a-0d6d-44df-b977-15ac864434c4">
+    <name>МониторингОшибокСинхронизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мониторинг ошибок синхронизации</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="5a56687f-601b-4bf8-a1ed-bd34cbe05bc4">
+    <name>ИнформационнаяБаза</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информационная база</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ИнформационныеБазы</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

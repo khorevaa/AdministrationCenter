@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="70423f59-b59b-48d6-aea6-ae95e9e55506">
+  <name>КонфигурацияНеИзменена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Конфигурация не изменена</value>
+  </synonym>
+  <comment></comment>
+</mdclass:CommonPicture>

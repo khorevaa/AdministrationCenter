@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d180751a-b6d4-4506-a875-03aa04ef87a9">
+  <producedTypes>
+    <refType typeId="fafac0d9-ee29-419d-865b-c313e21dd02f" valueTypeId="646f4026-6869-40cf-8d8b-de1a1996684b"/>
+    <listType typeId="e43e1f16-722c-41d9-af78-875b224d4837" valueTypeId="5e5e725d-17d6-40de-ab01-cdc603cfddf1"/>
+    <managerType typeId="cb3711d5-202a-4e2c-ae24-d055c73c7a16" valueTypeId="593700e6-ca1c-49ae-8d80-4f16125b6018"/>
+  </producedTypes>
+  <name>КатегорияДоработки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Категория доработки</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="e3b52a63-c1fe-4e19-841e-a8770c980d84">
+    <name>ВнешняяДоработка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внешняя доработка</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="03677ba2-b883-4aaf-b478-020752bd638f">
+    <name>ВнутреняяДоработка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внутреняя доработка</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

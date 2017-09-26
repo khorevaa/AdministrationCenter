@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c2423322-e8d8-4517-8c0a-a8aa98e70c6e">
+  <name>НастройкиИСправочники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки и справочники</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.РазделНормативноСправочнаяИнформация</picture>
+  </picture>
+  <content>CommonPicture.РазделНормативноСправочнаяИнформация</content>
+  <content>Catalog.ВерсииКонфигурации</content>
+  <content>Catalog.ВерсииПлатформы</content>
+  <content>Catalog.ИнформационныеБазы</content>
+  <content>Catalog.Кластеры</content>
+  <content>Catalog.Конфигурации</content>
+  <content>Catalog.Новости</content>
+  <content>Catalog.Обработчики</content>
+  <content>Catalog.ВнешниеПользователи</content>
+  <content>Catalog.ПрофилиДоступа</content>
+  <content>Catalog.РеестрДоработок</content>
+  <content>Report.ЖурналСобытийИнформационныхБаз</content>
+  <content>Report.ПрофилиДоступаИнформационныхБаз</content>
+  <content>DataProcessor.КонсольПрограммиста</content>
+  <content>DataProcessor.ЗагрузкаИнформационныхБаз</content>
+  <content>InformationRegister.ЖурналСобытий</content>
+  <content>InformationRegister.НастройкиПользователей</content>
+  <content>InformationRegister.СостояниеИнформационныхБаз</content>
+  <content>DataProcessor.РегистрацияCOM</content>
+  <content>Catalog.Пользователи</content>
+  <content>Catalog.УчетныеЗаписиЭлектроннойПочты</content>
+  <content>DataProcessor.МониторингОшибокСинхронизации</content>
+  <content>Catalog.ГруппыПользователей</content>
+  <content>DataProcessor.РегламентныеИФоновыеЗадания</content>
+</mdclass:Subsystem>

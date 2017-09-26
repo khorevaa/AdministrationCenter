@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="72405a45-0346-40cd-8750-948b942752a7">
+  <producedTypes>
+    <objectType typeId="a300b0da-447b-451d-8baa-78f312538175" valueTypeId="73a14170-8588-49ac-9887-cf8420211958"/>
+    <managerType typeId="07c7b67d-8325-4506-ab09-8ad71d7944a3" valueTypeId="ec8eb44a-7cdc-481b-a4e5-c63231bb4e60"/>
+  </producedTypes>
+  <name>РабочееМестоАдминистратора</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рабочее место администратора</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РабочееМестоАдминистратора.Form.РабочееМестоАдминистратора</defaultForm>
+  <forms uuid="d2eb0988-9d58-49de-a595-e778e5320aea">
+    <name>РабочееМестоАдминистратора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочее место администратора</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e6044b14-2c0b-4435-ae41-a11900a32350">
+    <name>АктивныеПользователи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Активные пользователи</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="975abde6-8651-4cfb-8ac3-da29bf5c7564">
+    <name>ОткрытьРабочееМестоАдминистратора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочее место администратора</value>
+    </synonym>
+    <comment></comment>
+    <group>NavigationPanelImportant</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:DataProcessor>

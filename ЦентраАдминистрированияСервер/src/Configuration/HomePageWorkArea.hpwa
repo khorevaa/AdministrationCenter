@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hpwa:HomePageWorkArea xmlns:hpwa="http://g5.1c.ru/v8/dt/hpwa">
+  <workingAreaTemplate>TwoColumnsEqualWidth</workingAreaTemplate>
+  <columns>
+    <items>
+      <form>Catalog.ЗадачиИсполнителя.Form.МоиЗадачи</form>
+      <height>10</height>
+      <visibility>
+        <common>true</common>
+      </visibility>
+    </items>
+  </columns>
+  <columns>
+    <items>
+      <form>Catalog.ИнформационныеБазы.Form.СписокБазТребующихВнимание</form>
+      <height>10</height>
+      <visibility>
+        <common>true</common>
+      </visibility>
+    </items>
+  </columns>
+</hpwa:HomePageWorkArea>

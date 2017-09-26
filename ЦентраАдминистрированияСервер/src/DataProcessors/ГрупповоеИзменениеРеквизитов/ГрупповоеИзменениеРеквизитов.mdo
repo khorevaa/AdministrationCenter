@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="48d4da3e-ef72-4477-af1b-bb76f72c1709">
+  <producedTypes>
+    <objectType typeId="c3735802-598f-498e-8da2-28bac70313e7" valueTypeId="ce64ae72-f8be-492b-b41d-a653c1320a1b"/>
+    <managerType typeId="eff123f2-7a1b-4e50-be81-8b27ee88897a" valueTypeId="57396eab-0143-47a0-9d8e-a08e6a013150"/>
+  </producedTypes>
+  <name>ГрупповоеИзменениеРеквизитов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Групповое изменение реквизитов</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>DataProcessor.ГрупповоеИзменениеРеквизитов.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="e9062fce-e06b-495f-a9bd-76fc22a39490">
+    <name>ИзменятьВТранзакции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменять в транзакции</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>При невозможности изменения элементов в транзакции, все изменения будут отменены.</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4526e48b-879d-4111-94ef-08f1fb7a1e04">
+    <name>ПрерыватьПриОшибке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прерывать при ошибке</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Предупреждать, если во время изменения элементов возникнут ошибки.</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="bcd5e1c2-1c98-49b2-8be8-0af031c1ed89">
+    <name>ИспользуютсяДопРеквизиты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Используются доп реквизиты</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>У изменяемых объектов есть дополнительные реквизиты</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="569e8536-7e78-42a3-9e67-ea235b2cf1ff">
+    <name>ИспользуютсяДопСведения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Используются доп сведения</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>У изменяемых объектов есть дополнительные сведения</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c1876ec8-3e10-41a4-b9bd-973ef017cf09">
+    <name>ПоказыватьСлужебныеРеквизиты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показывать служебные реквизиты</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Отображать служебные реквизиты в общем списке реквизитов.</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="29442462-9c52-4aca-8579-521755976800">
+    <name>РежимРазработчика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим разработчика</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Выполнять запись объектов в режиме ОбменДанными.Загрузка = Истина.</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="5e27b9df-473c-47a4-9361-a8dbf044623e">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="cbd5b463-0f56-4443-83c0-6ed259504104">
+    <name>ВыбранныеЭлементы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбранные элементы</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="904b6507-6ae0-494e-98c8-cee13cb5e203">
+    <name>ВыборВидаОбъектов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор вида объектов</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="11eb2265-e51e-486d-8cd9-ca8a9f8af508">
+    <name>ДополнительныеПараметры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительные параметры</value>
+    </synonym>
+    <comment></comment>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ad598e93-81c8-4e7e-8e2d-ef1cd85faf2b">
+    <name>РедактированиеФормулы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактирование формулы</value>
+    </synonym>
+    <comment></comment>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="a0d723f2-32c4-4c3e-8e6a-8c34d24765f7">
+    <name>ФильтрРеквизитов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фильтр реквизитов</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <commands uuid="1de2d8fe-55a4-4d96-9346-9511e0b90994">
+    <name>ГрупповоеИзменениеРеквизитов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Групповое изменение реквизитов</value>
+    </synonym>
+    <comment></comment>
+    <group>ActionsPanelTools</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Групповое изменение реквизитов и табличных частей произвольных объектов</value>
+    </toolTip>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:DataProcessor>

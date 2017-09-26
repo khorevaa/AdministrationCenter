@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0fdbf53e-0ce8-4ca9-addb-0a868b66f43d">
+  <producedTypes>
+    <objectType typeId="743efded-b361-48b3-8871-999a3e706ed2" valueTypeId="affb6e23-9a76-4fd7-9e28-593dbb486699"/>
+    <refType typeId="9dfdb28b-8d36-464b-904c-6ed22784b4f3" valueTypeId="1c51c44c-856e-484d-ae6f-caf4cbc4ed0c"/>
+    <selectionType typeId="aa8bcc52-6d4c-417c-8467-b792ec1d8ebd" valueTypeId="13d2eae8-dea7-427f-b056-dafcf90e9cf3"/>
+    <listType typeId="546896fd-fdc0-4a64-8f25-3a213c671ffb" valueTypeId="1435eb5d-c081-41db-8d10-e681f89fbcbb"/>
+    <managerType typeId="0a03e635-458c-4426-88cb-8a47a0cc6c45" valueTypeId="07572512-e106-4b5c-b42f-60ec82ed8356"/>
+  </producedTypes>
+  <name>ПрофилиДоступа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Профили доступа</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПрофилиДоступа.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ПрофилиДоступа.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ПрофилиДоступа.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="deaab09e-1468-449f-9612-4de4640cdd92">
+    <name>ИнформационнаяБаза</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информационная база</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ИнформационныеБазы</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <forms uuid="373b4369-29a6-4fdb-aed7-c946bf966026">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5fea7077-0528-4d55-b77e-8f8053a001c7">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

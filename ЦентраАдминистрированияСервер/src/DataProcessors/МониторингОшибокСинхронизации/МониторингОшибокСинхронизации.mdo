@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e5743dba-6503-404f-a37b-efcf62b34c46">
+  <producedTypes>
+    <objectType typeId="060ed0b3-9f24-4474-8021-719980a020cc" valueTypeId="f0b51965-d32e-440e-96ee-b7bf3c9bdf59"/>
+    <managerType typeId="c6b8e72a-b2db-4bd9-82e7-5f91f3c70ef2" valueTypeId="b9e75453-f6fb-4f89-97d4-ea59c31d4f73"/>
+  </producedTypes>
+  <name>МониторингОшибокСинхронизации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мониторинг ошибок синхронизации</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.МониторингОшибокСинхронизации.Form.Форма</defaultForm>
+  <forms uuid="beac2e92-2a2a-472f-b415-03c961a27413">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

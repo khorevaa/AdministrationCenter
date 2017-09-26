@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c2753973-bb99-47c3-a4b8-9c55a14c93fa">
+  <producedTypes>
+    <selectionType typeId="d8ccd2b4-dd83-4f35-80c5-4441a2be3a8c" valueTypeId="0bd0427e-8628-4e19-a160-1b7e821fbee4"/>
+    <listType typeId="6d4492f9-7e7f-46aa-97f8-8b669b4f5279" valueTypeId="7495dd53-df59-4463-8da9-95fd0a16a66e"/>
+    <managerType typeId="2b180cbd-27a7-4eb3-bf92-8c9ffaa259d5" valueTypeId="cb12e4c5-476e-4562-b607-f5dcefab9e20"/>
+    <recordSetType typeId="310972bd-c99b-4ae8-9d13-1451c118d8ca" valueTypeId="6c28c3aa-6bc8-42a8-b875-a481d5b54231"/>
+    <recordKeyType typeId="5eed4000-448b-4908-96bc-fceb857be5ac" valueTypeId="68b89026-a719-48d2-80fd-f0ed60e21263"/>
+    <recordType typeId="928dc8df-8596-4137-bf7b-1a57102fcd5c" valueTypeId="5d9451cb-892f-46a8-a79a-71cf3175edd8"/>
+    <recordManagerType typeId="9a0c3af0-3c54-454c-bf48-083eadccbb8a" valueTypeId="2bc95446-d93e-43e9-aa37-6cf0312cd9ab"/>
+  </producedTypes>
+  <name>НастройкиПользователей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки пользователей</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.НастройкиПользователей.Form.ФормаЗаписи</defaultRecordForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="c0845031-eedc-46f4-b99b-288a92201d81">
+    <name>ПутьКФайламДампов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к файлам дампов</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="4a38c209-79ba-415f-b570-3e6ed2c5c644">
+    <name>ПутьКФайлуОбновленияТиповыхКонфигураций</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к файлу обновления типовых конфигураций</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="9a710f8a-affc-4e9e-98f3-f9ba2e276976">
+    <name>ПутьКРезервнымКопиямБаз</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к резервным копиям баз</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="e5ce400b-5e43-4e9a-9643-07ec38a729ff">
+    <name>ПутьКФайлуСравненияКонфигурации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к файлу сравнения конфигурации</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="42e513d3-92b8-4e75-a283-683ba772e4c5">
+    <name>СообщениеБлокировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сообщение блокировки</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="02389a6b-8980-40d9-9b52-0d96e5134105">
+    <name>КодРазрешения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код разрешения</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="b358fd58-d1f3-4f6c-9092-27c7f6211c28">
+    <name>ПериодБлокировкиНачалаСеансов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период блокировки начала сеансов</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="788f0b5a-c16c-46cb-8f56-da7a44a34492">
+    <name>ВыполнятьОперацииПоследовательно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнять операции над базами</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="703dea96-f1d4-40e9-a51e-8b27b5f9f39d">
+    <name>ЗадержкаБлокировакиСеансов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задержка блокироваки сеансов</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="95ecebd5-1798-4ced-9885-4c8422c84559">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="416c39eb-ae40-4511-be22-b5d796bca51b">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

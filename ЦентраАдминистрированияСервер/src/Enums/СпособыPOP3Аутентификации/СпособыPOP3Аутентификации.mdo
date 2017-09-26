@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="616cfd6e-224b-42e1-b9f8-fb4f2343c5fd">
+  <producedTypes>
+    <refType typeId="62071ef4-cdb9-45ea-8cd2-c037f187b5f2" valueTypeId="9b17df09-dbc5-4b33-949d-28e6a55a2812"/>
+    <listType typeId="f322bc8d-407d-4418-bc7c-65834756eb3e" valueTypeId="0e563ae5-2018-4e7a-8a3b-5d374b9187bc"/>
+    <managerType typeId="4173d7c4-4f79-42e9-b019-2fb99342df68" valueTypeId="8cc24ee8-b7b4-4e93-ac94-513f0f849b03"/>
+  </producedTypes>
+  <name>СпособыPOP3Аутентификации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы POP3 аутентификации</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a55c64b6-e7e6-4a4b-a3a0-620bb37b635a">
+    <name>APOP</name>
+    <synonym>
+      <key>ru</key>
+      <value>APOP</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="2b33da37-079a-4323-bec0-83a4ea062752">
+    <name>CramMD5</name>
+    <synonym>
+      <key>ru</key>
+      <value>Cram MD5</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="21e6c9ae-6fd2-4b80-baa8-4110e3a02e60">
+    <name>Обычная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обычная</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a7164983-f3ef-4290-a6d9-69a69fdf0783">
+  <producedTypes>
+    <objectType typeId="7acaeed4-df77-4971-a58f-c4f4770ba0d4" valueTypeId="2521b330-2571-442f-9638-961d01ac9045"/>
+    <refType typeId="86357a89-4b24-4b56-aa31-702ad59fe9f2" valueTypeId="32f90ffe-2860-4bfd-85ce-8eb5e74d0806"/>
+    <selectionType typeId="a4154fa7-f5a0-4160-a69c-4ddca7b98834" valueTypeId="0843f5e9-334b-46d8-af90-b7e4e5c009a0"/>
+    <listType typeId="1e348bcc-f9f2-465f-b3b5-5ee8b7482f6f" valueTypeId="c3b28ac8-1ac3-47f6-b376-068a462dab65"/>
+    <managerType typeId="267ffa1c-2e48-4e02-a8d5-eb22ca0af9a3" valueTypeId="0e76c659-c875-421a-a2f6-1cf482985967"/>
+  </producedTypes>
+  <name>Новости</name>
+  <synonym>
+    <key>ru</key>
+    <value>Новости</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Новости.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Новости.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Новости.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="72dffa74-a158-4729-8eaa-bf443ca0726f">
+    <name>АвтоСбросНапоминанияПриПрочтении</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автосброс напоминания при прочтении</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>После прочтения сразу сбрасывается признак напоминания о важной новости</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="3b89217f-1fe2-49ab-bd65-8867efdf5d59">
+    <name>Важность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Важность</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Важность новости</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </attributes>
+  <attributes uuid="2be3185d-f8f0-4324-8a91-3d2852b672c8">
+    <name>ДатаЗавершения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата завершения</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата, после которой новость исчезнет из всех списков</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </attributes>
+  <attributes uuid="6bf9096b-cefe-49e6-a6e6-215109047813">
+    <name>ДатаПубликации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата публикации</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата публикации этой новости</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </attributes>
+  <attributes uuid="a4bfdebd-13f4-49b4-bd8a-639751dbd240">
+    <name>ДатаСбросаВажности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата сброса важности</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата, после которой новость станет обычной (не важной)</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </attributes>
+  <attributes uuid="a60d8b2d-b297-4011-aebd-68781dae44f3">
+    <name>Подзаголовок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подзаголовок</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Подзаголовок новости</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="c8541690-8c85-42cd-89f7-9a7562d9335c">
+    <name>СсылкаНаПолныйТекстНовости</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ссылка на полный текст новости</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>URL на полный текст новости</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="b92810a8-5145-4753-bf85-90698442aeb3">
+    <name>ТекстНовости</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст новости</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Текст новости в формате HTML</value>
+    </toolTip>
+    <mask></mask>
+    <multiLine>true</multiLine>
+    <extendedEdit>true</extendedEdit>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="876637c4-b601-4b77-99a6-249d18471db9">
+    <name>УИННовости</name>
+    <synonym>
+      <key>ru</key>
+      <value>УИННовости</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Уникальный идентификатор новости</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <tabularSections uuid="78c53e79-b639-40e3-a19b-bdec4cc82e1a">
+    <producedTypes>
+      <objectType typeId="b4348108-1413-411f-8722-a92f359dd5df" valueTypeId="9e5d9bf1-516d-4705-b001-f59496160622"/>
+      <rowType typeId="f963b012-dfa0-4a00-a31f-ac505d1196b7" valueTypeId="a3541334-b719-4f0b-9445-5f1e3f471b2a"/>
+    </producedTypes>
+    <name>СписокИнформационныхБаз</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список информационных баз</value>
+    </synonym>
+    <comment></comment>
+    <attributes uuid="05426be5-b485-4cb8-8504-f6eb61ee7f28">
+      <name>ИнформационнаяБаза</name>
+      <synonym>
+        <key>ru</key>
+        <value>Информационная база</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ИнформационныеБазы</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="c9b40a3b-d1b7-440d-b839-c4f1a99d66aa">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

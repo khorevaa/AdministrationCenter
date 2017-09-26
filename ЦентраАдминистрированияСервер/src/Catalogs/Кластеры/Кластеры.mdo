@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="abf53845-2d75-4c6e-8331-19a6727a299a">
+  <producedTypes>
+    <objectType typeId="e6b07b8c-cce0-4a68-99d6-3f50693a53cf" valueTypeId="5804c1c9-7640-4675-8b4b-b0545725afb5"/>
+    <refType typeId="d3285a75-2a40-4a4b-ac97-e086f5248cbc" valueTypeId="8ecab0fb-c4a0-44cf-a974-575e73165e70"/>
+    <selectionType typeId="2085bbb9-4e9a-4db2-b58e-610a7241e6d6" valueTypeId="01d09259-0b7b-4ca4-93b2-72a2757170c0"/>
+    <listType typeId="ea27db5a-6237-4b66-b976-eb2633812ef3" valueTypeId="99478830-2783-4f1a-8c8a-a57158af2c2e"/>
+    <managerType typeId="d2e4b5f1-c8b4-4259-bb75-c999a96e4136" valueTypeId="305aaf48-4c38-4404-b17f-c7350990bef9"/>
+  </producedTypes>
+  <name>Кластеры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кластеры</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Кластеры.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Кластеры.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Кластеры.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="e51825a1-32af-43ad-a3cd-59f2963d0150">
+    <name>АдминистраторКластера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Администратор кластера</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="a001de61-f68c-42a9-8412-86cb577bc2df">
+    <name>АдресАгентаСервера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес агента сервера</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="4be9a3a5-ff51-4da8-b859-b86abcaaf421">
+    <name>ВерсияПлатформы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия платформы</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ВерсииПлатформы</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="f1436189-71c6-441d-8a1b-9239f224f492">
+    <name>Кластер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кластер</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="0bcf5ea0-59bc-42c4-bdcf-800e23b47423">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1024</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="634d7828-7e0b-4fcb-bbf0-c412a06692ae">
+    <name>ПарольАдминистратораКластера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль администратора кластера</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="fda5fceb-1dc3-4187-ad0d-1c7f8beb3026">
+    <name>ПортАгентаСервера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер IP порта агента сервера (по умолчанию 1540)</value>
+    </synonym>
+    <comment>ПортАгентаСервера Только для &quot;COM&quot;</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="bc1c96c1-9bd8-4e2f-8d58-cb2b63fd28ab">
+    <name>ПортКластера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер основного IP порта менеджера кластера (по умолчанию 1541)</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="bca1a5a1-a0f5-4e42-8d24-8b19f2bb83be">
+    <name>Представление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Представление</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <forms uuid="b6200a31-433b-4acc-a930-9f0652438854">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

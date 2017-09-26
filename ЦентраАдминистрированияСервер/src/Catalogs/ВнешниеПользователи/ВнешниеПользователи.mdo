@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="18a0e978-19e6-4555-8399-8780894167a1">
+  <producedTypes>
+    <objectType typeId="ee8119f1-d422-49b2-9772-49969d34258b" valueTypeId="e1bf822e-297e-4956-9125-b21fe5925d5b"/>
+    <refType typeId="6c6fcecc-4281-4b9c-bcee-9c6befb6bf36" valueTypeId="a7560f95-6c23-4761-8248-dc57eecf6f6d"/>
+    <selectionType typeId="235ee14b-e27f-4263-a158-fe044709413b" valueTypeId="4c1259d2-a22b-460f-b668-09b0e56126f2"/>
+    <listType typeId="94021430-d1c8-4994-a3d5-e105ab120018" valueTypeId="acec2f6e-c41b-451e-ba2c-f188d83fc094"/>
+    <managerType typeId="6079ba75-8214-4114-808e-35b8607d0a94" valueTypeId="1814e4e7-4311-40a2-9174-52a0b904c704"/>
+  </producedTypes>
+  <name>ВнешниеПользователи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Внешние пользователи</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВнешниеПользователи.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ВнешниеПользователи.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ВнешниеПользователи.Form.ФормаСписка</defaultListForm>
+  <tabularSections uuid="817e4307-c25e-4aae-8281-85e20af4ff80">
+    <producedTypes>
+      <objectType typeId="35fab8f3-605f-4466-b38e-1c3c56cbb486" valueTypeId="867c181d-dceb-45a1-99d4-41b57c0ccd78"/>
+      <rowType typeId="a6cf7e2f-e54d-4cb4-9550-5f6e65264e86" valueTypeId="6b9b0f79-1d3f-4d5d-ba6d-55136d04fb8c"/>
+    </producedTypes>
+    <name>ПрофилиДоступа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Профили доступа</value>
+    </synonym>
+    <comment></comment>
+    <attributes uuid="36c852f0-8501-4217-bf8e-ad7321008caf">
+      <name>Отметка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Отметка</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="39e134bf-f1cc-424d-9888-df2ddb0156db">
+      <name>ИнформационнаяБаза</name>
+      <synonym>
+        <key>ru</key>
+        <value>Информационная база</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ИнформационныеБазы</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e13e6240-39bd-47aa-9989-da0f49541d08">
+      <name>Профиль</name>
+      <synonym>
+        <key>ru</key>
+        <value>Профиль</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ПрофилиДоступа</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="83bcd28c-94fb-4d57-9637-1647e530a0ee">
+    <producedTypes>
+      <objectType typeId="14987524-c01b-4550-8415-9904ed6d07ee" valueTypeId="ccfd1ec2-5e31-4033-b2e7-ec42d9ff3c27"/>
+      <rowType typeId="3738ced9-f272-4b7b-8014-58605d73e5ff" valueTypeId="bea00508-658f-4152-880b-2376ccca9f9b"/>
+    </producedTypes>
+    <name>СписокИнформационныхБаз</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список информационных баз</value>
+    </synonym>
+    <comment></comment>
+    <standardAttributes>
+      <name>LineNumber</name>
+      <comment></comment>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="12de1f4a-5652-4b5d-ad98-08c39aea1492">
+      <name>Отметка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Отметка</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0e402ad5-6357-4bbc-a6ba-0f6c1bf0406a">
+      <name>ИнформационнаяБаза</name>
+      <synonym>
+        <key>ru</key>
+        <value>Информационная база</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ИнформационныеБазы</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3e8c62ff-28bf-4163-acd2-506a87d0fc2f">
+      <name>Недействителен</name>
+      <synonym>
+        <key>ru</key>
+        <value>Недействителен</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="420daa51-8f6c-4ad6-a6db-6d67a3e11748">
+      <name>ВходВПрограммуРазрешен</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вход в программу разрешен</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a038a65b-3e17-4fd7-82d7-00b1a62044a7">
+      <name>ИмяПользователя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя пользователя</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="da83fbc7-be71-4356-a446-ce46ea1cba30">
+      <name>СменаПароляПриВходе</name>
+      <synonym>
+        <key>ru</key>
+        <value>Смена пароля при входе</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d580b5c9-acae-47ea-b2df-f6a020d7a75f">
+      <name>ЗапрещеноИзменятьПароль</name>
+      <synonym>
+        <key>ru</key>
+        <value>Запрещено изменять пароль</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="982140d9-5668-4591-a178-afcac64a815d">
+      <name>ПоказыватьВСпискеВыбора</name>
+      <synonym>
+        <key>ru</key>
+        <value>Показывать в списке выбора</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="4150debf-e916-4d2e-b4c9-bb2a9a73c01a">
+      <name>ИдентификаторПользователяИБ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Идентификатор пользователя ИБ</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b50a95bd-ac3c-4eeb-bb62-010e38eecc47">
+      <name>СохраняемоеЗначениеПароля</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сохраняемое значение пароля</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="7559474f-8525-4c62-9b70-23f5d29649af">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4783efd2-9de6-4d6b-8004-6d1b3adb9b54">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

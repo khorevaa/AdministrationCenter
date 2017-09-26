@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d8699865-06f6-44b6-a929-82a61ad4b3fd">
+  <producedTypes>
+    <objectType typeId="05c5ad6d-99bb-48b7-a305-294241d084f1" valueTypeId="e848bef7-aef4-4541-aa19-d6f438fcbdcc"/>
+    <managerType typeId="d210e79f-1316-4f81-9e38-4acc0a86a71b" valueTypeId="810af6b3-9cbb-42be-ae21-2ef9e1d6c90a"/>
+  </producedTypes>
+  <name>ЗагрузкаИнформационныхБаз</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка информационных баз</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗагрузкаИнформационныхБаз.Form.Форма</defaultForm>
+  <forms uuid="2f0310b9-8c85-4f7a-9f61-4f2d6c15b3f4">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="3f3a643c-4dea-484c-aae3-6e03fc185e3c">
+    <name>ЗагрузкаСпискаИнформационныхБаз</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загрузка списка информационных баз</value>
+    </synonym>
+    <comment></comment>
+    <group>ActionsPanelTools</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:DataProcessor>

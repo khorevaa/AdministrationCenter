@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="52232919-1dda-47f3-81cc-93665ba3f6df">
+  <producedTypes>
+    <objectType typeId="67f003bb-daf8-4717-b318-8c5023a0ebba" valueTypeId="77f1c768-63a5-4d37-8b70-3980db4c7878"/>
+    <managerType typeId="fc32cd02-b728-4646-9d8c-1820d0bb289a" valueTypeId="bc7d739b-42a2-41e3-aa14-6d55fbc8afcd"/>
+  </producedTypes>
+  <name>РегламентныеИФоновыеЗадания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регламентные и фоновые задания</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РегламентныеИФоновыеЗадания.Form.РегламентныеИФоновыеЗадания</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="8f9dbe85-73b2-4e55-a12c-8d9e0b582551">
+    <name>РегламентныеИФоновыеЗадания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регламентные и фоновые задания</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5cf70cf3-7a4c-4988-b4d9-457ef1f7cf8b">
+    <name>ФоновоеЗадание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фоновое задание</value>
+    </synonym>
+    <comment></comment>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="25ae3bf2-dc99-4d0c-adfa-5504f44c239b">
+    <name>РегламентноеЗадание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регламентное задание</value>
+    </synonym>
+    <comment></comment>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="d0a03fd8-fa4e-41db-8d35-f16a2cc983d3">
+    <name>РегламентныеИФоновыеЗадания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регламентные и фоновые задания</value>
+    </synonym>
+    <comment></comment>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:DataProcessor>

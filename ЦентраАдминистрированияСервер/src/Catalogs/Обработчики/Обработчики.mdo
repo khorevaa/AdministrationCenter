@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2491c529-107b-4f39-8f1e-f33348007cb8">
+  <producedTypes>
+    <objectType typeId="e351929c-a495-42ef-a1b6-720d6cd85120" valueTypeId="9221eef8-d178-4bc2-a9af-f951e4292988"/>
+    <refType typeId="88875d5e-e9ba-407c-bab8-c23734716bb5" valueTypeId="166849a1-db39-4c2b-897f-5751a18444cd"/>
+    <selectionType typeId="db683368-2bbe-47d9-a8c4-fdcea1a0e08c" valueTypeId="7f0d54a3-39b5-4c4d-9456-6a6df4915465"/>
+    <listType typeId="d16d5cca-6a3d-493d-bbc4-36ffa2655ec1" valueTypeId="647ac380-d1dd-4f7b-bc59-418444687c32"/>
+    <managerType typeId="ea0ef627-0e7e-494e-8b64-06b60a3eb17f" valueTypeId="05743a8a-2247-4730-b0b5-563a648f9aa3"/>
+  </producedTypes>
+  <name>Обработчики</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработчики</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Обработчики.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Обработчики.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Обработчики.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="dbe7ba8b-9e2c-4f3e-abd5-741f2d7e2335">
+    <name>ОписаниеОбработчика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание обработчика</value>
+    </synonym>
+    <comment> Любая дополнительная информация</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="95201a3d-4fcc-41d0-8c6c-7bcb13fb99d1">
+    <name>КодОбработчика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код обработчика</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <forms uuid="0f79facd-d70d-44fb-8fc0-c92b2c719ec8">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="3419fc6a-878c-41f1-99ec-09a105d6e704">
+    <name>ОбработкаИсполненияКода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обработка исполнения кода</value>
+    </synonym>
+    <comment></comment>
+    <templateType>BinaryData</templateType>
+  </templates>
+</mdclass:Catalog>

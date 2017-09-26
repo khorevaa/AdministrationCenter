@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="190df967-f3e2-4b28-afd1-e32e7f848ec2">
+  <name>Обновления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновления</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.РеестрДоработок</content>
+  <content>Catalog.ИнформационныеБазы</content>
+  <content>Catalog.ВерсииКонфигурации</content>
+  <content>Catalog.ВерсииПлатформы</content>
+  <content>Catalog.Конфигурации</content>
+  <content>DataProcessor.КонсольПрограммиста</content>
+  <parentSubsystem>Subsystem.РаботаСВнешнимиБазами</parentSubsystem>
+</mdclass:Subsystem>

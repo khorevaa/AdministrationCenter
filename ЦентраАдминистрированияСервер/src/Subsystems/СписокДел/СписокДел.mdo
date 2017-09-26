@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b29cc9d2-82d4-489b-af05-891e2654c5e4">
+  <name>СписокДел</name>
+  <synonym>
+    <key>ru</key>
+    <value>Список дел</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.РазделБизнесПроцессыИЗадачи</picture>
+  </picture>
+  <content>Catalog.ЗадачиИсполнителя</content>
+  <content>Report.ВыполненныеЗадачиЗаПериод</content>
+</mdclass:Subsystem>

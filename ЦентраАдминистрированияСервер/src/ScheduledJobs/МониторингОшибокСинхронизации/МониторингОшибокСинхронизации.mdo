@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="676b1ab1-8599-4548-97cf-89ff272ae4a3">
+  <name>МониторингОшибокСинхронизации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мониторинг ошибок синхронизации</value>
+  </synonym>
+  <comment></comment>
+  <methodName>CommonModule.МониторингРаботыИнформационныхБаз.ВыполнитьМониторингОшибокСинхронизации</methodName>
+  <description>Мониторинг ошибок синхронизации</description>
+  <key>МониторингОшибокСинхронизации</key>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>
